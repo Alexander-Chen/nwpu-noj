@@ -11,8 +11,11 @@ int main()
 			a[++]=i
 }
 */
+
+
 #include <stdio.h>
 #include <stdlib.h>
+/*
 int main()
 {
 	int a, b, c, n, m, d;
@@ -37,3 +40,32 @@ int main()
 	printf("%d %d", n, m);
 	return 0;
 }
+*/
+
+
+int main()
+{
+	using namespace std;
+	int i, m = 0,n=1;
+	int j,cnt=0;
+	for(i=799;i>500;i--)
+	{
+		for (j = 2; j <i; j++)
+		{
+			if (i%j==0) break;
+		}
+		if (j == i)
+		{
+			cnt++;
+			m = m + i * n;
+			n = n * (-1);
+		}
+		
+	}
+	cout << cnt<<" "<<m;
+	return 0;
+
+
+}
+
+
