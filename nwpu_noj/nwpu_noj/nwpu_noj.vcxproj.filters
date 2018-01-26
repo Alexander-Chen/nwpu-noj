@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NOJ作业020_自然立方数的乐趣.cpp">
+    <ClCompile Include="NOJ作业051_字符串排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
